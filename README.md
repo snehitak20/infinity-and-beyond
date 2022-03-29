@@ -7,6 +7,7 @@ For this project, the main objective was to build a deployed portfolio page from
 
 <img src="./assets/css1.png" alt="CSS screenshot with CSS file comments">
 <img src="./assets/html.png" alt="HTML screenshot with the different tag changes">
+<img src="./assets/portfolio1.png" alt="Porfolio screenshot">
 
 [Link to webpage](https://snehitak20.github.io/infinity-and-beyond/)
 
