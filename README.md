@@ -6,7 +6,7 @@ The goal of this porject is to ultimately have a webpage that is dedicated to an
 For this project, the main objective was to build a deployed portfolio page from scratch. As such, the use of the `<meta name="viewport" content="width=device-width, initial-scale=1.0 />` was needed to allow for a responsive layout when viewed on various screens. Tags such as `<section>, <article>, <footer>, <header>, <figure>` were used to replace `<div>` tags, and helped to create a logical and semantic structure. For images, accessible alt attributes were written. In order for images to open to the deployed link, the `<img src>` was placed within the `<a></a>`. In the style.css file, the major change was utilizing `@media screen` to create the adaptive layout. The `.content` within the CSS file is important as it helped define the layout of the portfolio page: the borders of each of the sections, the use of the `flex-direction` to create rows, the use of `justify-content` in order to distribute space, and `display: flex` to create flex content. In the style.css file, common selectors and properties were consolidated under new names, and organized so the file will follow semantic structure.Comments were written to indicate the various changes to the CSS file, and to explain the CSS properties and their functions that were used for this project. 
 
 <img src="./assets/css1.png" alt="CSS screenshot with CSS file comments">
-<img src=".assets/html.png" alt="HTML screenshot with the different tag changes">
+<img src="./assets/html.png" alt="HTML screenshot with the different tag changes">
 
 [Link to webpage](https://snehitak20.github.io/infinity-and-beyond/)
 
