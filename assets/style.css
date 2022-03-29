@@ -58,6 +58,7 @@ html {
     position:relative;
 }
 
+/* Here, this is increasing the clarity of the images taken */
 .img {
     -webkit-backface-visibility: hidden;
     --webkit-transform: translateZ(0);
@@ -85,6 +86,10 @@ a {
     margin-left: 25px;
 }
 
+/* display:flex: here it used to define that all elements within are now within a flex box */
+/* flex-direction: the boxes will be arranged in rows */
+/* justify-content: used to distribute space around and in-between the flex boxes */
+/* transition: allows for the flex-box to expand out and adds more to the design */
 .content {
     display: flex;
     flex-direction: row;
@@ -101,6 +106,7 @@ a {
     transition: width 2s linear 1s;
 }
 
+/* Here only the titles are being altered within the boxes; the titles also have their own box */
 .content .titles {
     position: relative; 
     margin: -4rem 0 1.5rem 0;
@@ -112,6 +118,7 @@ a {
     transition: width 2s linear 1s;
 }
 
+/* When the mouse hovers over the content of the box, or the title, this allows for a glow to occur around the box */
 .content:hover,
 .content:hover .titles {
     box-shadow: inset 0px 0px 8px var(--coral), 0 0 15px var(--coral);
@@ -130,7 +137,7 @@ main {
     width: 96%;
     margin: 2rem auto;
 }
-
+/* Here this addresses the links that are within the <li> tag */
 li{
     display: inline-block;
     padding: 20px;
@@ -138,7 +145,7 @@ li{
     text-align: right;
 }
 
-
+/* This selects for the <h3> within the <footer> */
 .footer h3 {
     margin: 3rem;
     text-align: center;
@@ -151,6 +158,7 @@ li{
     text-align: right;
 }
 
+/* @media screen: allows for screen adaptation when minimizing/maximizing a window. */
 @media screen and (max width: 992px) {
     .header {
       width: 50%
