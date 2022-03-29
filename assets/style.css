@@ -1,3 +1,4 @@
+/*root: can use it to create a variable in CSS selectors, and serves as a quick and easy way to change color */
 :root {
     --coral: #d16c6c;
     --lavender: #737aca;
@@ -5,12 +6,15 @@
     --white: #ece3e3;
 }
 
+/* This is an univerasl selector so it will select for all the elements. */
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
+/* ::selection: this highlights what the user selects on the webpage */
+/* var: this allows the selection of a color from the root section; here the background color of the highlighted section will be lavender */ 
 ::selection {
     background-color: var(--lavender);
     color: var(--white)
@@ -20,6 +24,7 @@ html {
     font-size: 62.5%
 }
 
+/* This selects for all elements within the header */
 .header {
     padding: 20px; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,12 +32,14 @@ html {
     text-align: center;
 }
 
+/* This selects for all <h1> elements within the <header> tag */
 .header h1 {
     display: inline-block;
     font-size: 80px;
     text-align: center;
 }
 
+/* More specifically here, it is selecting for the name only within the <h1> tag that is within the <header> tag */
 .header h1 .name {
     color: var(--coral);
     text-align: center;
@@ -42,8 +49,8 @@ html {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 .image{ 
