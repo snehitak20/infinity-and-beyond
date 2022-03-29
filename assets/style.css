@@ -66,6 +66,43 @@ html {
     transform: translateZ(0);
 }
 
+.big-box {
+    display:flex;
+    justify-content:center;
+    width:80%;
+    height:500px;
+}
+
+.small-box {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width:70%;
+    gap:10px;
+}
+
+.project {
+    display:flex;
+    border: 4px solid var(--navy);
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    opacity: 0.9;
+    transition: transform 250ms;
+}
+
+.refactor {
+    background-image: url(./code-refactor.png);
+    background-position: center top;
+    grid-column: 1/ span 2;
+    grid-row: span 2;
+}
+
+.guest {
+    background-image: url(./guest.png);
+    background-position: top;
+}
 p {
     font-size: 18px;
     text-align: left;
@@ -145,6 +182,14 @@ li{
     text-align: right;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
 /* This selects for the <h3> within the <footer> */
 .footer h3 {
     margin: 3rem;
@@ -159,14 +204,24 @@ li{
 }
 
 /* @media screen: allows for screen adaptation when minimizing/maximizing a window. */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) {
     .header {
       width: 50%
     }
+
+    .column {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
 }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 992px) {
     .header {
       width: 100%
     }
+
+    .column {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+      }
 }

@@ -4,28 +4,27 @@
         <title>SNEHITA KOLLI</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/reset.css" />
         <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     </head>
 </html>
 
 <body>
-    <section class="header">
-        <header>
+    <header>
             <h1>Hello, I'm<span class="name"> Snehita</span></h1>
-            <p>I'm an aspiring full-stack engineer.</p>
-                <ul class="text-right">
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Get in Touch</a></li>
-                </ul>
-        </header>
-    </section>
-</body>
+        <nav>
+            <ul class="text-right">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-    <section>
-        <div id="about-me">
-            <article class="content">
+    <main>
+    <section id="about-me">
+        <div>
+            <article>
                 <figure>
                     <img src="./assets/sneha.jpg" alt="Snehita profile picture" height="300" width="250" class="float-right" />
                     <h2 class="titles">About Me</h2>
@@ -37,14 +36,64 @@
                 </figure>
             </article>
         </div>
+    </section>
 
-        <div id="work">
-            <article class="content">
+    <section id="work">
+        <div>
+            <h2 class="titles">Work</h2>
+        </div>
+            <article class="big-box">
+                <figure class="small-box">
+                    <a href="https://snehitak20.github.io/shark-bait/" target="_blank" class="project refactor">
+                        <div class="text">
+                            <h3> Project: Code Refactor</h3>
+                            <h3>
+                                <p>HTML/CSS</p>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="https://snehitak20.github.io/be-our-guest/" target="_blank" class="project guest">
+                        <div class="text">
+                            <h3>Project: Landing Page</h3>
+                            <h3>
+                                <p>HTML/CSS</p>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="https://snehitak20.github.io/css-tricks/">
+                        <div class="text">
+                            <h3>Project: CSS Snippets</h3>
+                            <h3>
+                                <p>HTML/CSS</p>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="https://snehitak20.github.io/infinity-and-beyond/">
+                        <div class="text">
+                            <h3>Project: Professional Portfolio</h3>
+                            <h3>
+                                <p>HTML/CSS</p>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a href="#">
+
+                    </a>
+                </figure>
+            </article>
+    </section>
+
+        <div>
+            <article class="content" class="row">
                 <figure>
                     <h2 class="titles">Work</h2>
                     <p class="image">
-                        <div class="container">
-                            <a href="https://snehitak20.github.io/shark-bait/">
+                        <div>
+                            <a href="https://snehitak20.github.io/shark-bait/" class="lulu">
                                 <img src="./assets/code-refactor.png" width="850" height="450" alt="Code refactor project" class="img" />
                             </a> 
                         </div>
@@ -95,3 +144,4 @@
         </h3>
     </section>
 </main>
+</body>
