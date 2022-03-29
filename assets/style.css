@@ -46,17 +46,26 @@ html {
     font-size: 20px;
 }
 
-div ul {
-    
+.image{ 
+    margin: 3%;
+    position:relative;
 }
+
+.img {
+    -webkit-backface-visibility: hidden;
+    --webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
 p {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 a {
     color: var(--lavender);
     font-size: 17.5px;
+    text-decoration: none;
 }
 
 .float-left {
@@ -130,7 +139,7 @@ li{
     color: var(--navy);
     float: right;
 }
-  
+
 .text-right {
     text-align: right;
 }
@@ -139,10 +148,10 @@ li{
     .header {
       width: 50%
     }
-  }
+}
   
   @media screen and (max-width: 768px) {
     .header {
       width: 100%
     }
-  }
+}
