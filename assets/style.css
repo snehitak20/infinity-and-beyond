@@ -3,7 +3,7 @@
     --coral: #d16c6c;
     --lavender: #737aca;
     --navy: #3d4079;
-    --white: #ece3e3;
+    --white: #f8f5f5;
 }
 
 /* This is an univerasl selector so it will select for all the elements. */
@@ -118,8 +118,7 @@ a {
     transition: width 2s linear 1s;
 }
 
-/* When the mouse hovers over the content of the box, or the title, this allows for a glow to occur around the box */
-.content:hover,
+/* When the mouse hovers over the title, this allows for a glow to occur around the box */
 .content:hover .titles {
     box-shadow: inset 0px 0px 8px var(--coral), 0 0 15px var(--coral);
 }
