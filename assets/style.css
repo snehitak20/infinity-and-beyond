@@ -36,17 +36,21 @@ header {
 /* This selects for all <h1> elements within the <header> tag */
 header h1 {
     display: block;
-    font-size: 80px;
-    text-align: center;
+    font-size: 70px;
+    text-align: left;
 }
 nav {
     display:flex;
-    align-items: center;
-    justify-content: center;
-    padding:30px 100px;
+    align-items: right;
+    justify-content: right;
+    text-align:right;
+    text-decoration: none;
+    padding: auto;
+    color: var(--navy)
 }
+
 .me {
-    background-image: url(./sneha.jpg);
+    background-image: url(./sneha2.jpg);
     padding: 100px;
     display:flex;
     background-size: cover;
@@ -137,7 +141,7 @@ p {
 }
 
 a {
-    color: var(--lavender);
+    color: var(--navy);
     font-size: 17.5px;
     text-decoration: none;
 }
@@ -167,7 +171,7 @@ main {
 }
 /* Here this addresses the links that are within the <li> tag */
 li{
-    display: inline-block;
+    display: inline-flex;
     padding: 20px;
     text-decoration: none;
     text-align: center;
