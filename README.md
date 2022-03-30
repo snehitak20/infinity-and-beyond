@@ -65,7 +65,7 @@ To access a previously deployed application, click an image, which will lead you
 
 ## Credits
 
-The initial ask was given by the UC Berkeley Extension, Coding Bootcamp. 
+The initial ask was given by the UC Berkeley Extension, Coding Bootcamp. Reset.css file was given by UC Berkeley Extension, Coding Bootcamp.
 
 ## Reflection
 
