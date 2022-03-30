@@ -39,6 +39,12 @@ header h1 {
     font-size: 80px;
     text-align: center;
 }
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 100px;
+}
 .me {
     background-image: url(./sneha.jpg);
     padding: 100px;
